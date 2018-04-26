@@ -2,10 +2,10 @@
 
 namespace PytoMVC\System\View;
 
-use PytoCryto\PytoCryto;
+use PytoTPL\PytoTPL;
 use Illuminate\Contracts\Config\Repository;
 
-final class View extends PytoCryto
+final class View extends PytoTPL
 {
     /**
      * The config repository
