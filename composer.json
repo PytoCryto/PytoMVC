@@ -1,0 +1,37 @@
+{
+    "name": "pytocryto/pytomvc",
+    "description": "A PHP MVC Framework built upon Laravel components",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php"                       : ">=5.6.4",
+        "pytocryto/pytotpl"         : "dev-master",
+        "pytocryto/flash"           : "dev-master",
+        "illuminate/pagination"     : "5.3.*",
+        "illuminate/database"       : "5.3.*",
+        "illuminate/events"         : "5.3.*",
+        "illuminate/validation"     : "5.3.*",
+        "illuminate/translation"    : "5.3.*",
+        "illuminate/http"           : "5.3.*",
+        "illuminate/config"         : "5.3.*",
+        "illuminate/cache"          : "5.3.*",
+        "illuminate/log"            : "5.3.*",
+        "symfony/var-dumper"        : "3.3.*",
+        "psr/log"                   : "1.0.2",
+        "sofa/eloquence"            : "5.3.2",
+        "watson/validating"         : "~3.0",
+        "google/recaptcha"          : "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PytoMVC\\": "src/"
+        },
+        "files": [
+            "src/System/Helpers/Files/core.php",
+            "src/System/Helpers/Files/helpers.php",
+            "src/System/Helpers/Files/misc.php",
+            "src/System/Helpers/Files/laravel.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
